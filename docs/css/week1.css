@@ -3,6 +3,16 @@
   font-family: Helvetica, sans-serif;
 }
 
+body {
+  background-color: #DEDEDE;
+}
+
+main {
+  max-width: 950px;
+  margin:0 auto;
+  background-color: #fff;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -115,4 +125,6 @@
   padding: 0 45px;
 
   height: 60px;
+  color: #fff;
+  background-color: #000;
 }
