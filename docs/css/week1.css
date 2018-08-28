@@ -45,6 +45,12 @@
 
 .hero .title {
   font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.hero .description {
+  font-size: 14px;
+  margin-bottom: 15px;
 }
 
 .flexible {
