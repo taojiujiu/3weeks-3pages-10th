@@ -1,4 +1,190 @@
 * {
-  margin: 0; 
+  margin: 0;
   font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+    font-size: xx-large;
+    margin-bottom: 25px;
+}
+
+p {
+    line-height: 25px;
+}
+
+.cotainer {
+    width: 1140px;
+    margin: 0 auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+
+}
+
+.header {
+    height: 77px;
+    line-height: 77px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 100;
+    width: 200px;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.search-icon {
+    display: block;
+    width: 70px;
+    height: 36px;
+}
+
+.hero-section {
+    height: 705px;
+    margin: 0 auto;
+    background-image: url(../assert/week1/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-bk{
+    height: 448px;
+    background: blac;
+    padding-top: 255px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+}
+
+.sub-title {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.hero-btn-group {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; 
+}
+
+.hero-btn-group button {
+    margin: 2px;
+}
+
+.preview-section {
+    padding-top: 175px;
+    padding-bottom: 100px;
+    display: flex;
+    background: #ffffff;
+}
+
+.preview-image {
+    display: block;
+    width: 500px;
+    height: 452px;
+    background-image: url(../assert/week1/flexible-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex: auto;
+}
+
+.preview-text-container {
+    display: block;
+    width: 360px;
+    padding-top: 70px;
+}
+
+.btn-primary {
+    height: 55px;
+    width: 200px;
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-sencodary {
+    height: 55px;
+    width: 200px;
+    background: none;
+    border: 2px #ffffff solid;
+    color: #ffffff;
+}
+
+.portfolio-section {
+    padding-top: 95px;
+    background: #eeeeee;
+}
+
+.portfolio-image {
+    display: block;
+    width: 500px;
+    height: 545px;
+    background-image: url(../assert/week1/flexible-portfolio.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex: auto;
+    margin-left: 130px;
+}
+
+.portfolio-text-container {
+    display: block;
+    width: 360px;
+    padding-top: 80px;
+}
+
+.article-btn{
+    margin-top: 25px;
+}
+
+.footer-section {
+    height: 180px;
+    background: #4F5052;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-section p{
+    color: #ffffff;
+    line-height: 180px;
+}
+.footer-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon {
+    height: 32px;
+    width: 32px;
+    list-style: none;
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
 }
