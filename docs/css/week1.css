@@ -64,7 +64,6 @@ p {
 
 .hero-bk{
     height: 448px;
-    background: blac;
     padding-top: 255px;
     background: rgba(0, 0, 0, 0.3);
 }
@@ -166,7 +165,6 @@ p {
 
 .footer{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 .footer-section p{
